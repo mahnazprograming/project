@@ -62,12 +62,12 @@
 	  <?php 
 	  if (file_exists('databse.csv')) {
 	  foreach($_SESSION["f"] as $user){?>
-     <tr>
-       <td><?php echo $user['0'];?></td>
-       <td><?php echo $user['1'];?> </td>
-	   <td><?php echo $user['2'];?> </td>
-	   <td><?php echo $user['3'];?> </td>
-     </tr>
+         <tr>
+          <td><?php echo $user['0'];?></td>
+          <td><?php echo $user['1'];?> </td>
+	  <td><?php echo $user['2'];?> </td>
+	  <td><?php echo $user['3'];?> </td>
+        </tr>
 		   <?php } ?>
 		    <?php } ?>
          
