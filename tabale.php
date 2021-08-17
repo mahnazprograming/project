@@ -56,8 +56,8 @@
                                     </select>
        <!-- <input type="text" id="city" name="city"><br>-->
 		
-                                   <label for="shahrestan">شهرستان:</label><br>
-                                    <select id="shahrestan" runat="server" ></select>
+        <label for="shahrestan">شهرستان:</label><br>
+        <select id="shahrestan" runat="server" ></select>
 
         <input type="button" value="ذخیره" id="save">
 
